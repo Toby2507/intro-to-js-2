@@ -1,5 +1,5 @@
-const firstNum = prompt("Enter the first number: ");
-const secondNum = prompt("Enter the second number: ");
+const firstNum = parseInt(prompt("Enter the first number: "));
+const secondNum = parseInt(prompt("Enter the second number: "));
 const op = prompt("Enter an operator e.g + - * / : ");
 
 if (op == "+") {
